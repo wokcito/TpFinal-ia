@@ -1,9 +1,9 @@
 How to use main.py
 
-python -m venv ia
+python -m venv .venv
 
-.\ia\Scripts\activate (windows)
-source ia/bin/activate (linux)
+.\.venv\Scripts\activate (windows)
+source .venv/bin/activate (linux)
 
 pip install -r requirements.txt
 
